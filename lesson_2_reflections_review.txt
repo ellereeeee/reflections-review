@@ -7,3 +7,36 @@ Q: How is the staging area different from the working directory and the reposito
 
 A: It serves as a middle ground between the working directory and the repository.
 It prompts you to consider your changes before committing them to the repository.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: You can use git diff --staged to see whether or not you will make one commit per logical change.
+If there are too many, you can remove the files from the staging area and try again.
+You can do this with git reset. This will removes all files from the staging area but keep your changes 
+made in the working directory intact.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A:
+1) You want to implement an experimental feature while keeping the original version intact.
+2) You want to add further progress to your project while keeping a working demo intact.
+3) You can collaborate with other people and merge your changes together once everyone has 
+approved of each others' changes.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: They illustrate reachability which is essential in visualizing the branch structure of commits.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: One or more histories of code are merged into another piece of code. 
+The HEAD or tip of the latter branch of code is updated to become the new HEAD of the merged code.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Pros
+- saves time
+- makes it easy for multiple people to collaborate
+
+Cons
+- Git cannot find redundant code (functionally the same) that is located in different places
