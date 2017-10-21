@@ -35,3 +35,12 @@ A: Showing your changes would be harder because you would have to tell your coll
 what you changed in a file and where in the file you did it.
 
 It might be easier to make changes because you would save time not adding and committing changes in Git.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits
+does each approach have?
+
+A: You want to make separate changs in a separate branch rather than master when you are working collaboratively on a project and you want other people to review and approve your changes before adding them to the master branch.
+
+This allows everyone on a project help filter out bugs and ensure there are no conflicts between changes.
+
+Not using this approach would allow for a faster workflow, although it would be more prone to errors.
