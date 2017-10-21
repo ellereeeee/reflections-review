@@ -28,3 +28,10 @@ or working on a new feature of a project.
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A: You could continue to work on a project if you don't have internet access.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: Showing your changes would be harder because you would have to tell your collaborators
+what you changed in a file and where in the file you did it.
+
+It might be easier to make changes because you would save time not adding and committing changes in Git.
