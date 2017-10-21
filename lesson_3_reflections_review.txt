@@ -24,3 +24,7 @@ The main one is called the "master" branch and exists in all repositories.
 You would use it when collaborating on a project, 
 when you want to keep a production version of a project intact while adding updates, 
 or working on a new feature of a project.
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A: You could continue to work on a project if you don't have internet access.
